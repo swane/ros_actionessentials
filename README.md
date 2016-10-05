@@ -30,12 +30,13 @@ package.xml
 ```
 In the 'action' folder create a file with the same 'name.action' as in the FILES of CMakeLists.txt.
 This has the format of:
+```
 GOAL
 ---
 RESULT
 ---
 FEEDBACK
-
+```
 e.g.:
 ```
 cd action
