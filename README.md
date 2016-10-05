@@ -43,11 +43,13 @@ cd action
 gedit name.action
 ```
 File could be:
+```
 float64 goaldist
 ---
 float64 resultdist
 ---
 float64 feedbackdist
+```
 
 Then move to catkin_ws, and `catkin_make`
 Message files .msg should be created and reported on during build (these can be found in: catkin_ws/devel/share/package_name)
