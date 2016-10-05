@@ -1,14 +1,14 @@
 #ROS Action Essentials
 Create a new package in the usual way:
-in 'catkin_ws\src` `catkin_create_pkg topic_test rospy` 
+in 'catkin_ws\src` `catkin_create_pkg package_name rospy` 
 
 Now copy the following two files over and make minor changes:
 ##package.xml
 In package.xml, just change the name of the package in the XML code:
-  `<name>package name</name>`
+  `<name>package_name</name>`
 ##CMakeLists.txt
 In CMakeLists.txt, change the package name:
-`project(package name)`
+`project(package_name)`
 
 and the name of the action file to the one you used:
 ```
