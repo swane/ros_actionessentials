@@ -1,6 +1,18 @@
 #ROS Action Essentials
 Create a new package in the usual way:
 in 'catkin_ws\src` `catkin_create_pkg package_name rospy` 
+Copy the files from this Git repo by:
+```
+Move to the folder to put files.
+git clone git://github.com/swane/ros_actionessentials.git
+This will put all GIT into a folder called 'ros_actionessentials'
+Move to this folder and copy to the mother directory:
+cd ros_actionessentials
+cp *.* ..
+cd ..
+Delete directory
+rm -rf ros_actionessentials/
+```
 
 Now copy the following two files over and make minor changes:
 ##package.xml
